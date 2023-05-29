@@ -1,0 +1,55 @@
+h1 {
+  font-size: 52px;
+  margin: none;
+  margin-block-end: 10px;
+  margin-block-start: 0px;
+}
+h3 {
+  margin: none;
+  font-size: 24px;
+  margin-block-end: 40px;
+  margin-block-start: 0px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+}
+.top-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro-line {
+  font-family: "Exo", sans-serif;
+  margin: none;
+}
+.intro-line2 {
+  font-family: "Exo", sans-serif;
+  font-weight: 200;
+  margin: none;
+}
+.img-pfp {
+  border-radius: 50%;
+  height: 250px;
+  margin-bottom: 100px;
+}
+.bottomView-image-container {
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomView-image {
+  height: auto;
+  max-width: 100%;
+}
