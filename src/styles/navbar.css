@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;800&display=swap");
+
 ul {
   text-decoration: none;
   list-style: none;
@@ -23,6 +25,7 @@ nav {
 
 a .nav-item {
   color: #333333;
+  font-family: "Exo", sans-serif;
 }
 
 a .nav-item:hover {

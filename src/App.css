@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;300;800&display=swap");
+
 body,
 html,
 #root {
-  padding: none;
-  margin: none;
+  padding: 0px;
+  margin: 0px;
 }
 body {
   display: flex;
