@@ -9,6 +9,13 @@ h2 {
   margin: none;
   margin-block-end: 10px;
   margin-block-start: 0px;
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease;
+}
+h2:hover {
+  transform: scale(1.02);
+  color: #383836;
 }
 h3 {
   margin: none;
@@ -48,6 +55,11 @@ h3 {
   border-radius: 50%;
   height: 250px;
   margin-bottom: 100px;
+  transition: 0.3s ease;
+}
+.img-pfp:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 .bottomView-image-container {
   max-width: 960px;
@@ -119,6 +131,16 @@ h3 {
 .tech-stack-img {
   height: 500px;
 }
+.homepage-projects-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 75px;
+  font-family: "Exo", sans-serif;
+}
+.projects-intro-text {
+  font-size: 80px;
+}
 .homepage-projects {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -141,6 +163,7 @@ h3 {
   box-shadow: 0px 0px 19px -11px rgba(0, 0, 0, 0.75);
   border-radius: 30px;
   font-family: "Exo", sans-serif;
+  transition: 0.3s ease;
 }
 .proj-text {
   display: flex;
@@ -180,72 +203,32 @@ h3 {
   border-bottom-left-radius: 30px;
 }
 
-.pokemon-image-container {
+.img-container {
   position: relative;
 }
+
 .portfolio-overlay {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: radial-gradient(#161717, #527275);
+  background: radial-gradient(transparent, #ebfcfc);
   opacity: 0;
   transition: all 0.3s ease;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
-.pokemon-image-container:hover {
+.img-container:hover {
+  cursor: pointer;
   .portfolio-overlay {
-    opacity: 0.8;
+    opacity: 0.28;
   }
 }
-
-.pokemon-image-container {
-  position: relative;
-}
-.proj-button {
-  align-items: center;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-
-  color: rgba(0, 0, 0, 0.85);
+.proj-titles:hover {
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: ;
 }
-
-.proj-button:hover,
-.proj-button:focus {
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  color: rgba(0, 0, 0, 0.65);
-}
-
-.proj-button:active {
-  background-color: #f0f0f1;
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-  color: rgba(0, 0, 0, 0.65);
-}
-
-.pokemon-image:hover + .proj-button,
-.proj-button:hover {
-  display: inline-block;
+.project:hover {
+  transform: scale(1.04);
 }

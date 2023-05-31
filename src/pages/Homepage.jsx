@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/homepage.css";
+import { Link } from "react-router-dom";
 function Homepage() {
   return (
     <>
@@ -13,7 +14,13 @@ function Homepage() {
             </h3>
           </div>
           <div className="image-container">
-            <img className="img-pfp" src=".././images/profile-pic.png" />
+            <Link
+              rel="noopener noreferrer"
+              target="_blank"
+              to="https://www.linkedin.com/in/dylanscriven"
+            >
+              <img className="img-pfp" src=".././images/profile-pic.png" />
+            </Link>
           </div>
         </div>
         <div className="bottomView-image-container">
@@ -43,18 +50,33 @@ function Homepage() {
           <img className="tech-stack-img" src="../images/techstack.png" />
         </div>
       </div>
+      <div className="homepage-projects-intro">
+        <h1 className="projects-intro-text">PROJECTS</h1>
+      </div>
       <div className="homepage-projects">
         <div className="project project-1">
-          <div className="pokemon-image-container">
-            <img
-              className="pokemon-image proj-img"
-              src="../images/pokemonthumbnail.jpg"
-            />
-            <button className="proj-button">View Site</button>
-            <div className="portfolio-overlay"></div>
+          <div className="pokemon-image-container img-container">
+            <Link
+              rel="noopener noreferrer"
+              target="_blank"
+              to="https://pokemonparadise.netlify.app/"
+            >
+              <img
+                className="pokemon-image proj-img"
+                src="../images/pokemonthumbnail.jpg"
+              />
+
+              <div className="portfolio-overlay"></div>
+            </Link>
           </div>
           <div className="proj-text">
-            <h2>Pokemon Paradise</h2>
+            <Link
+              rel="noopener noreferrer"
+              target="_blank"
+              to="https://pokemonparadise.netlify.app/"
+            >
+              <h2 className="proj-titles">Pokemon Paradise</h2>
+            </Link>
             <p>
               This pokemon inspired app uses external api's to retrieve data and
               dynamically update the page based on what you searched for!
@@ -62,14 +84,15 @@ function Homepage() {
           </div>
         </div>
         <div className="project project-2">
-          <div className="a1sealing-image-container">
+          <div className="a1sealing-image-container img-container">
             <img
               className="a1sealing-image proj-img"
               src="https://a1sealingtest.netlify.app/assets/pexels-nout-gons-248159-da12e9f5.jpg"
             />
+            <div className="portfolio-overlay"></div>
           </div>
           <div className="proj-text">
-            <h2>A1 Sealing Live Business Site</h2>
+            <h2 className="proj-titles">A1 Sealing Live Business Site</h2>
             <p>
               This website is currently serving a real client! They are a simple
               asphalt sealing business, requesting a simple site to
@@ -78,14 +101,15 @@ function Homepage() {
           </div>
         </div>
         <div className="project project-3">
-          <div className="dashboard-image-container">
+          <div className="dashboard-image-container img-container">
             <img
               className="dashboard-image proj-img"
               src="https://ak.picdn.net/shutterstock/videos/1032549521/thumb/11.jpg?ip=x480"
             />
+            <div className="portfolio-overlay"></div>
           </div>
           <div className="proj-text">
-            <h2>Data Visualization Dashboard</h2>
+            <h2 className="proj-titles">Data Visualization Dashboard</h2>
             <p>
               This teaih cioah the ojca wsewbsite will serve clients tfi theis
               before shitpipng wathe website out this need.s updates
