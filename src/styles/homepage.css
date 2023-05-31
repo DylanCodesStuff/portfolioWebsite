@@ -13,10 +13,7 @@ h2 {
   color: black;
   transition: 0.2s ease;
 }
-h2:hover {
-  transform: scale(1.02);
-  color: #383836;
-}
+
 h3 {
   margin: none;
   font-size: 24px;
@@ -228,7 +225,10 @@ h3 {
 }
 .proj-titles:hover {
   cursor: pointer;
+  transform: scale(1.02);
+  color: #383836;
 }
+
 .project:hover {
   transform: scale(1.04);
 }

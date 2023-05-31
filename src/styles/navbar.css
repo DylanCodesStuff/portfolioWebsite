@@ -20,12 +20,13 @@ nav {
   gap: 15px;
 }
 .logo-img {
-  height: 80px;
+  height: 140px;
 }
 
 a .nav-item {
   color: #333333;
   font-family: "Exo", sans-serif;
+  font-size: 18px;
 }
 
 a .nav-item:hover {

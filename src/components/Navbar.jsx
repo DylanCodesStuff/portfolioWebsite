@@ -5,12 +5,11 @@ function Navbar() {
   return (
     <nav>
       <div className="left-nav">
-        <div className="logo">
-          <img
-            className="logo-img"
-            src="https://images.websitebuilderexpert.com/wp-content/uploads/2019/05/09020529/wbe-short-logo.png"
-          />
-        </div>
+        <Link to="/">
+          <div className="logo">
+            <img className="logo-img" src="../../images/logo-top.png" />
+          </div>
+        </Link>
         <div className="logo-text"></div>
       </div>
       <div className="right-nav">

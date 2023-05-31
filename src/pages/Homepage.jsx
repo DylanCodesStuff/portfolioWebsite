@@ -51,7 +51,7 @@ function Homepage() {
         </div>
       </div>
       <div className="homepage-projects-intro">
-        <h1 className="projects-intro-text">PROJECTS</h1>
+        <h1 className="projects-intro-text">SHOWCASE PROJECTS</h1>
       </div>
       <div className="homepage-projects">
         <div className="project project-1">
@@ -85,14 +85,27 @@ function Homepage() {
         </div>
         <div className="project project-2">
           <div className="a1sealing-image-container img-container">
-            <img
-              className="a1sealing-image proj-img"
-              src="https://a1sealingtest.netlify.app/assets/pexels-nout-gons-248159-da12e9f5.jpg"
-            />
-            <div className="portfolio-overlay"></div>
+            <Link
+              rel="noopener noreferrer"
+              target="_blank"
+              to="https://a1sealingtest.netlify.app/"
+            >
+              <img
+                className="a1sealing-image proj-img"
+                src="https://a1sealingtest.netlify.app/assets/pexels-nout-gons-248159-da12e9f5.jpg"
+              />
+
+              <div className="portfolio-overlay"></div>
+            </Link>
           </div>
           <div className="proj-text">
-            <h2 className="proj-titles">A1 Sealing Live Business Site</h2>
+            <Link
+              rel="noopener noreferrer"
+              target="_blank"
+              to="https://a1sealingtest.netlify.app/"
+            >
+              <h2 className="proj-titles">A1 Sealing Live Business Site</h2>
+            </Link>
             <p>
               This website is currently serving a real client! They are a simple
               asphalt sealing business, requesting a simple site to
