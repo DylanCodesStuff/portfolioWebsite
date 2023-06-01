@@ -1,0 +1,15 @@
+.projects-page-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Exo", sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15%;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}

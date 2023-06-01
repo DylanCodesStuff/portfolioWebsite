@@ -15,7 +15,7 @@ function Footer() {
               <p> Thanks for viewing! Reach out anytime.</p>
             </div>
             <div className="right-layer">
-              <Link to="">
+              <Link to={{}}>
                 <button className="back-top" onClick={handleScrollTop}>
                   Back to Top
                 </button>
