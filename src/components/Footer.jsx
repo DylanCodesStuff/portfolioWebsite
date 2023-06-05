@@ -25,50 +25,54 @@ function Footer() {
         <div className="links">
           <div className="footer-container">
             <div className="socials-container">
-              <h3 className="footer-name">Dylan Scriven</h3>
-              <div className="socials">
-                <Link
-                  className="socials-link"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  to="https://www.linkedin.com/in/dylanscriven"
-                >
-                  <img
-                    className="socials-icons"
-                    src="../../images/linkedinicon.svg"
-                  />
-
-                  <p>@dylanscriven</p>
-                </Link>
+              <div className="contact-header">
+                <h3 className="footer-name">Dylan Scriven</h3>
               </div>
+              <div className="socials-list">
+                <div className="socials">
+                  <Link
+                    className="socials-link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    to="https://www.linkedin.com/in/dylanscriven"
+                  >
+                    <img
+                      className="socials-icons"
+                      src="../../images/linkedinicon.svg"
+                    />
 
-              <div className="socials">
-                <Link
-                  className="socials-link"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  to="mailto:dscriven16@gmail.com"
-                >
-                  <img
-                    className="socials-icons"
-                    src="../../images/emailicon.png"
-                  />
-                  <p>dscriven16@gmail.com</p>
-                </Link>
-              </div>
-              <div className="socials">
-                <Link
-                  className="socials-link"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  to="tel:7164905909"
-                >
-                  <img
-                    className="socials-icons"
-                    src="../../images/cellphone.png"
-                  />
-                  <p>+1 716-490-5909</p>
-                </Link>
+                    <p className="footer-text">@dylanscriven</p>
+                  </Link>
+                </div>
+
+                <div className="socials">
+                  <Link
+                    className="socials-link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    to="mailto:dscriven16@gmail.com"
+                  >
+                    <img
+                      className="socials-icons"
+                      src="../../images/emailicon.png"
+                    />
+                    <p className="footer-text">dscriven16@gmail.com</p>
+                  </Link>
+                </div>
+                <div className="socials">
+                  <Link
+                    className="socials-link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    to="tel:7164905909"
+                  >
+                    <img
+                      className="socials-icons"
+                      src="../../images/cellphone.png"
+                    />
+                    <p className="footer-text">+1 716-490-5909</p>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -83,7 +87,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   onClick={handleScrollTop}
                 >
-                  <p>Home</p>
+                  <p className="footer-text">Home</p>
                 </Link>
               </div>
               <div className="projects-link socials-link">
@@ -92,7 +96,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   onClick={handleScrollTop}
                 >
-                  <p>Projects</p>
+                  <p className="footer-text">Projects</p>
                 </Link>
               </div>
               <div className="about-link socials-link">
@@ -101,7 +105,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   onClick={handleScrollTop}
                 >
-                  <p>About</p>
+                  <p className="footer-text">About</p>
                 </Link>
               </div>
             </div>

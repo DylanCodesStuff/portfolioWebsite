@@ -3,3 +3,7 @@ html {
   background-color: #fcffff;
 }
 /* Might have to  change this if it overrides the lower sections background color */
+
+::-webkit-scrollbar {
+  display: none;
+}

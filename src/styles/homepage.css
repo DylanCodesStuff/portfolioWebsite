@@ -230,7 +230,115 @@ h3 {
   transform: scale(1.02);
   color: #383836;
 }
+.tech-stack-text {
+  text-align: center;
+}
 
 .project:hover {
   transform: scale(1.04);
+}
+@media (max-width: 820px) {
+  .hero {
+    width: fit-content;
+    text-align: center;
+    overflow: hidden;
+  }
+  .bottomView-image-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .bottomView-image {
+    width: fit-content;
+    width: 100%;
+  }
+  .second-section {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .bio-text {
+    font-size: 20.5px;
+  }
+  .tech-stack-wrapper {
+    margin-top: -3%;
+  }
+
+  /* --- */
+  .homepage-projects-intro {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .projects-intro-text {
+    font-size: 24px;
+  }
+  .homepage-projects {
+    width: fit-content;
+  }
+
+  .project {
+    display: Flex;
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    gap: 25px;
+    -webkit-box-shadow: 0px 0px 19px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 19px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 19px -11px rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+    font-family: "Exo", sans-serif;
+    transition: 0.3s ease;
+  }
+  .proj-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 0px;
+  }
+  .pokemon-image-container {
+    width: 100%;
+  }
+  .pokemon-image {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .a1sealing-image-container {
+    width: 100%;
+  }
+  .a1sealing-image {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .dashboard-image-container {
+    width: 100%;
+  }
+  .dashboard-image {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .portfolio-overlay {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .img-container:hover {
+    cursor: pointer;
+    .portfolio-overlay {
+      opacity: 0.28;
+    }
+  }
 }

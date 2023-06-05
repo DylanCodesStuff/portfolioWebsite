@@ -7,7 +7,7 @@ function Homepage() {
       <div className="hero">
         <div className="intro-section">
           <div className="top-text">
-            <h1 className="intro-line">Frontend Developer</h1>
+            <h1 className="intro-line">Web Developer</h1>
             <h3 className="intro-line2">
               I create websites with simple and minimilalistic qualities in
               mind.

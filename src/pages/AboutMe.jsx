@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/aboutme.css";
 function AboutMe() {
   return (
-    <div>
+    <div className="about-me-container">
       <div className="banner">
-        <h1>
+        <h1 className="quote-text">
           "Accept the challenges so that you can feel the exhilaration of
           victory"
           <br></br>-George Patton
@@ -30,6 +30,7 @@ function AboutMe() {
           />
         </div>
       </div>
+
       <div className="in-my-freetime">
         <div className="in-my-freetime-image-container about-img-container">
           <img
