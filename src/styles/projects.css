@@ -10,6 +10,8 @@
   justify-content: center;
   align-items: flex-start;
   gap: 15%;
-  margin-top: 70px;
   flex-wrap: wrap;
+}
+.card-container {
+  padding-top: 35px;
 }

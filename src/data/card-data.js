@@ -7,4 +7,8 @@ export const data = {
     text: "This website is currently serving a real client! They are a simple asphalt sealing business, requesting a simple site to differentiate from their competitors!",
     technologies: ["HTML", "CSS", "JavaScript", "React", "Node"],
   },
+  dataVisualization: {
+    text: "Lorem This website is currently serving a real client! They are a simple asphalt sealing business, requesting a simple site to differentiate from their competitors",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node"],
+  },
 };

@@ -1,0 +1,51 @@
+* {
+  font-family: "Exo", sans-serif;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  background: black;
+  color: white;
+  font-family: "Exo", sans-serif;
+  margin-bottom: 50px;
+}
+.who-am-i {
+  display: flex;
+  padding: 70px;
+  justify-content: space-evenly;
+}
+
+.who-am-i-header {
+  font-weight: 300;
+}
+
+.about-img-container {
+  height: 300px;
+  margin-left: 20px;
+}
+.who-am-i-image {
+  height: 100%;
+  flex-shrink: 1;
+  margin-left: 20px;
+}
+.about-text-container {
+  max-width: 800px;
+}
+
+.in-my-freetime {
+  display: flex;
+  padding: 70px;
+  justify-content: space-evenly;
+}
+.in-my-freetime-header {
+  font-weight: 300;
+}
+.in-my-freetime-image {
+  height: 100%;
+  flex-shrink: 1;
+  margin-right: 20px;
+}
+.about-text {
+  line-height: 2;
+}

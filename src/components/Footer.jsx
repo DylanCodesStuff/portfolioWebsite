@@ -7,7 +7,6 @@ function Footer() {
   }
   return (
     <>
-      {" "}
       <div className="footer">
         <div className="layer-container">
           <div className="layer">
@@ -79,20 +78,30 @@ function Footer() {
             </div>
             <div className="links-container">
               <div className="home-link socials-link">
-                <Link to="/" rel="noopener noreferrer">
-                  {" "}
-                  <p>Home</p>{" "}
+                <Link
+                  to="/"
+                  rel="noopener noreferrer"
+                  onClick={handleScrollTop}
+                >
+                  <p>Home</p>
                 </Link>
               </div>
               <div className="projects-link socials-link">
-                <Link to="/projects" rel="noopener noreferrer">
+                <Link
+                  to="/projects"
+                  rel="noopener noreferrer"
+                  onClick={handleScrollTop}
+                >
                   <p>Projects</p>
                 </Link>
               </div>
               <div className="about-link socials-link">
-                <Link to="/about-me" rel="noopener noreferrer">
-                  {" "}
-                  <p>About</p>{" "}
+                <Link
+                  to="/about-me"
+                  rel="noopener noreferrer"
+                  onClick={handleScrollTop}
+                >
+                  <p>About</p>
                 </Link>
               </div>
             </div>
