@@ -67,7 +67,7 @@ function Projects() {
           <Carousel responsive={responsive}>
             <div>
               <Card
-                image="pokemonthumbnail.jpg"
+                image="/images/pokemonthumbnail.jpg"
                 header="Pokemon Paradise"
                 paragraph={dataHolder.pokemonParadise.text}
                 techList={dataHolder.pokemonParadise.technologies}
@@ -75,7 +75,7 @@ function Projects() {
             </div>
             <div>
               <Card
-                image="a1sealing.jpg"
+                image="/images/a1sealing.jpg"
                 header="A1 Sealing"
                 paragraph={dataHolder.A1Sealing.text}
                 techList={dataHolder.A1Sealing.technologies}
@@ -84,7 +84,7 @@ function Projects() {
             <div>
               {" "}
               <Card
-                image="dashboard.png"
+                image="/images/dashboard.png"
                 header="Data Visualization"
                 paragraph={dataHolder.dataVisualization.text}
                 techList={dataHolder.dataVisualization.technologies}

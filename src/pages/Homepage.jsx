@@ -19,12 +19,12 @@ function Homepage() {
               target="_blank"
               to="https://www.linkedin.com/in/dylanscriven"
             >
-              <img className="img-pfp" src=".././images/profile-pic.png" />
+              <img className="img-pfp" src="/images/profile-pic.png" />
             </Link>
           </div>
         </div>
         <div className="bottomView-image-container">
-          <img className="bottomView-image" src="../images/computerssvg.svg" />
+          <img className="bottomView-image" src="/images/computerssvg.svg" />
         </div>
       </div>
       <div className="second-section">
@@ -47,7 +47,7 @@ function Homepage() {
       <div className="tech-stack-wrapper">
         <div className="tech-stack-container">
           <h3 className="tech-stack-text">Preferred Tech Stack</h3>
-          <img className="tech-stack-img" src="../images/techstack.png" />
+          <img className="tech-stack-img" src="/images/techstack.png" />
         </div>
       </div>
       <div className="homepage-projects-intro">
@@ -63,7 +63,7 @@ function Homepage() {
             >
               <img
                 className="pokemon-image proj-img"
-                src="../images/pokemonthumbnail.jpg"
+                src="/images/pokemonthumbnail.jpg"
               />
 
               <div className="portfolio-overlay"></div>
