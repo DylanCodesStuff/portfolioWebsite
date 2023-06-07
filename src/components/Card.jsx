@@ -6,7 +6,7 @@ function Card(props) {
     <li className="li-element" key={nanoid()}>
       <img
         className="tech-images"
-        src={`../../images/${item.toLowerCase()}.png
+        src={`./../images/${item.toLowerCase()}.png
       `}
       />
       {item}
