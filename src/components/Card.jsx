@@ -16,7 +16,7 @@ function Card(props) {
   return (
     <div className="card-container">
       <div className="card-wrapper">
-        <img className="image" src={`../images/${props.image}`} />
+        <img className="image" src={`/images/${props.image}`} />
         <h3 className="projects-page-text1">{props.header}</h3>
         <p className="projects-page-text2">{props.paragraph}</p>
         <h2 className="projects-page-text3">Technologies Used:</h2>
