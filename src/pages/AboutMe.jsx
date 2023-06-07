@@ -26,7 +26,7 @@ function AboutMe() {
         <div className="who-am-i-image-container about-img-container">
           <img
             className="who-am-i-image about-img"
-            src="../../images/who-am-i-img.png"
+            src="../images/who-am-i-img.png"
           />
         </div>
       </div>
@@ -35,7 +35,7 @@ function AboutMe() {
         <div className="in-my-freetime-image-container about-img-container">
           <img
             className="in-my-freetime-image about-img"
-            src="../../images/pickleball-player.png"
+            src="../images/pickleball-player.png"
           />
         </div>
         <div className="in-my-freetime-text-container about-text-container">

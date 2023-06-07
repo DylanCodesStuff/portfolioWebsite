@@ -117,7 +117,7 @@ function Homepage() {
           <div className="dashboard-image-container img-container">
             <img
               className="dashboard-image proj-img"
-              src="https://ak.picdn.net/shutterstock/videos/1032549521/thumb/11.jpg?ip=x480"
+              src="https://assets-global.website-files.com/62c609e220cfd73d2f4f179b/6345ef6a4877b48e623c2880_6341e8eeb0fdacab9ef11524_35_Data_Visualization_Dashboards.png"
             />
             <div className="portfolio-overlay"></div>
           </div>

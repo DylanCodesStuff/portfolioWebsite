@@ -84,7 +84,7 @@ function Projects() {
             <div>
               {" "}
               <Card
-                image="https://ak.picdn.net/shutterstock/videos/1032549521/thumb/11.jpg?ip=x480"
+                image="dashboard.png"
                 header="Data Visualization"
                 paragraph={dataHolder.dataVisualization.text}
                 techList={dataHolder.dataVisualization.technologies}
