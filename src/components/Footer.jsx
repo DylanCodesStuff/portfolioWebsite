@@ -47,7 +47,7 @@ function Footer() {
 
                 <div className="socials">
                   <Link
-                    className="socials-link"
+                    className="socials-link footer-link"
                     rel="noopener noreferrer"
                     target="_blank"
                     to="mailto:dscriven16@gmail.com"
@@ -61,7 +61,7 @@ function Footer() {
                 </div>
                 <div className="socials">
                   <Link
-                    className="socials-link"
+                    className="socials-link footer-link"
                     rel="noopener noreferrer"
                     target="_blank"
                     to="tel:7164905909"
@@ -86,6 +86,7 @@ function Footer() {
                   to="/"
                   rel="noopener noreferrer"
                   onClick={handleScrollTop}
+                  className="footer-link"
                 >
                   <p className="footer-text">Home</p>
                 </Link>
@@ -95,6 +96,7 @@ function Footer() {
                   to="/projects"
                   rel="noopener noreferrer"
                   onClick={handleScrollTop}
+                  className="footer-link"
                 >
                   <p className="footer-text">Projects</p>
                 </Link>
@@ -104,6 +106,7 @@ function Footer() {
                   to="/about-me"
                   rel="noopener noreferrer"
                   onClick={handleScrollTop}
+                  className="footer-link"
                 >
                   <p className="footer-text">About</p>
                 </Link>

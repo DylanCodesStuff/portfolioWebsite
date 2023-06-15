@@ -30,33 +30,6 @@ function Projects() {
     },
   };
 
-  // <div className="projects-page-container">
-  //   <div className="projects-gallery-header">
-  //     <h1>Projects Gallery</h1>
-  //   </div>
-  //   <div className="cards">
-  //     <Card
-  //       image="pokemonthumbnail.jpg"
-  //       header="Pokemon Paradise"
-  //       paragraph={dataHolder.pokemonParadise.text}
-  //       techList={dataHolder.pokemonParadise.technologies}
-  //     />
-  //     <Card
-  //       image="a1sealing.jpg"
-  //       header="A1 Sealing"
-  //       paragraph={dataHolder.A1Sealing.text}
-  //       techList={dataHolder.A1Sealing.technologies}
-  //     />
-  //     <Card
-  //       image="https://ak.picdn.net/shutterstock/videos/1032549521/thumb/11.jpg?ip=x480"
-  //       header="Data Visualization"
-  //       paragraph={dataHolder.dataVisualization.text}
-  //       techList={dataHolder.dataVisualization.technologies}
-  //     />
-  //
-  //   </div>
-  // </div>
-
   return (
     <div className="projects-page-container">
       <div className="App">
@@ -67,10 +40,20 @@ function Projects() {
           <Carousel responsive={responsive}>
             <div>
               <Card
+                image="zombiebackground.jpg"
+                header="The Walking Deadle"
+                paragraph={dataHolder.theWalkingDeadle.text}
+                techList={dataHolder.theWalkingDeadle.technologies}
+                externalUrl={dataHolder.theWalkingDeadle.externalUrl}
+              />
+            </div>
+            <div>
+              <Card
                 image="pokemonthumbnail.jpg"
                 header="Pokemon Paradise"
                 paragraph={dataHolder.pokemonParadise.text}
                 techList={dataHolder.pokemonParadise.technologies}
+                externalUrl={dataHolder.pokemonParadise.externalUrl}
               />
             </div>
             <div>
@@ -79,18 +62,9 @@ function Projects() {
                 header="A1 Sealing"
                 paragraph={dataHolder.A1Sealing.text}
                 techList={dataHolder.A1Sealing.technologies}
+                externalUrl={dataHolder.A1Sealing.externalUrl}
               />
             </div>
-            <div>
-              {" "}
-              <Card
-                image="dashboard.png"
-                header="Data Visualization"
-                paragraph={dataHolder.dataVisualization.text}
-                techList={dataHolder.dataVisualization.technologies}
-              />
-            </div>
-            <div>Item 4</div>
           </Carousel>
         </div>
       </div>

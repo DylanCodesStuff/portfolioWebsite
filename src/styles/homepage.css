@@ -51,12 +51,36 @@ h3 {
 .img-pfp {
   border-radius: 50%;
   height: 250px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   transition: 0.3s ease;
 }
 .img-pfp:hover {
   cursor: pointer;
   transform: scale(1.05);
+}
+.contact-me-btn {
+  cursor: pointer;
+  outline: 0;
+  color: #121212;
+  background-color: #ccf4ff;
+  border-color: #ccf4ff;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 12px 34px;
+  font-size: 28px;
+  border-radius: 2px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 110px;
+  font-family: "Exo", sans-serif;
+  font-weight: 800;
+}
+.contact-me-btn:hover {
+  color: #101210;
+  background-color: #98b7e6;
+  border-color: #98b7e6;
 }
 .bottomView-image-container {
   max-width: 960px;
@@ -140,6 +164,9 @@ h3 {
 .projects-intro-text {
   font-size: 80px;
 }
+.home-page-text {
+  margin: 10px;
+}
 .homepage-projects {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -169,7 +196,9 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-right: 50px;
+}
+.proj-titles {
+  display: flex;
 }
 .pokemon-image-container {
   height: 300px;
@@ -225,6 +254,9 @@ h3 {
     opacity: 0.28;
   }
 }
+.proj-titles {
+  text-align: center;
+}
 .proj-titles:hover {
   cursor: pointer;
   transform: scale(1.02);
@@ -272,11 +304,14 @@ h3 {
     font-size: 24px;
   }
   .homepage-projects {
-    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .project {
-    display: Flex;
+    display: flex;
     width: 80%;
     text-align: center;
     flex-direction: column;
@@ -295,7 +330,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     margin-right: 0px;
   }
   .pokemon-image-container {
