@@ -64,11 +64,15 @@ function Homepage() {
         </div>
         <div className="project project-3">
           <div className="dashboard-image-container img-container">
-            <img className="dashboard-image proj-img" src="images/zombiebackground.jpg" />
-            <div className="portfolio-overlay"></div>
+            <Link to="https://thewalkingdeadle.netlify.app/" rel="noopener noreferrer" target="_blank">
+              <img className="dashboard-image proj-img" src="images/zombiebackground.jpg" />
+              <div className="portfolio-overlay"></div>
+            </Link>
           </div>
           <div className="proj-text">
-            <h2 className="proj-titles">The Walking Deadle</h2>
+            <Link to="https://thewalkingdeadle.netlify.app/" rel="noopener noreferrer" target="_blank">
+              <h2 className="proj-titles">The Walking Deadle</h2>
+            </Link>
             <p className="home-page-text">Worlde meets The Walking Dead in this spin-off of the hit game. Try it out, don't be afraid to enter Hell Mode.</p>
           </div>
         </div>
